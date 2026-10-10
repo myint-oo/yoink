@@ -1,0 +1,3 @@
+# ActivityWatch
+
+Install ActivityWatch.
