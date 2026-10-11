@@ -18,5 +18,6 @@ What it sets up, in short:
 - Relative line numbers, cursorline, scrolloff 8, wrapping always on, no horizontal scrolling, system clipboard.
 - Ctrl+P find files, Ctrl+B toggle the tree, Ctrl+S save; H/L or Ctrl+Tab switch tabs.
 - Markdown renders in the editor, with no spellcheck or lint warnings.
+- Todo lists like VSCode's Todo+ (checkmate.nvim) in files named `todo`, `TODO`, `todo.md`, `*.todo` or `*.todo.md`: ☐/✔/✘ boxes, done items struck through, saved as plain Markdown checkboxes. Cmd+T or `:Todo` opens an unsaved todo list; Option+Enter new, Option+D done with timestamp, Option+C cancel, Option+S started, Cmd+Enter toggle.
 - LazyVim extras for PHP (intelephense), Go, SQL, TypeScript, Docker, YAML, JSON, TOML, Markdown, Git.
 - Neovide settings live in `lua/config/options.lua` and `keymaps.lua` (see neovide.md).

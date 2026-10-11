@@ -45,3 +45,9 @@ end
 -- Spacing: gap between line numbers and code
 vim.opt.numberwidth = 4
 vim.opt.statuscolumn = [[%!v:lua.LazyVim.statuscolumn() .. '   ']]
+
+-- Treat todo files without a .md extension as markdown (so the todo plugin works)
+vim.filetype.add({
+  filename = { ["todo"] = "markdown", ["TODO"] = "markdown", ["Todo"] = "markdown" },
+  extension = { todo = "markdown" },
+})
